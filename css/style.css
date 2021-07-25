@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+[class^="col-"]{
+    background-color:pink;
+    text-align: center;
+    height: 200px;
+    line-height: 200px;
+    border:1px solid black;
+}
+
+[class^="colnested"]{
+    background-color:rgb(231, 142, 142);
+    text-align: center;
+    height: 190px;
+    line-height:190px;
+    border:1px solid white;
+}
